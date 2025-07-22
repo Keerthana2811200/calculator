@@ -1,6 +1,6 @@
+    simple Calculator:
 
-
-A simple and user-friendly calculator application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+   A simple and user-friendly calculator application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
 
 ## 🚀 Features
 
@@ -33,33 +33,17 @@ A simple and user-friendly calculator application that performs basic arithmetic
 
 2. Open `index.html` in your browser.
 
-### For Python Version:
+
 
 1. Clone the repository:
 
-   ```bash
    git clone https://github.com/your-username/calculator-app.git
    cd calculator-app
-   ```
-
-
-   ```
-
-## 📂 Project Structure
-
-```bash
-calculator-app/
-│
-├── index.html         # Main HTML file
-├── style.css          # CSS styles
-├── script.js          # JavaScript logic
-
-```
-
+   
 ## 🧠Advanced enhancement:
 
 * Scientific calculator features (sin, cos, log, etc.)
 * Dark/light theme switch
 * History of calculations
-* Voice input
+
 
