@@ -1,4 +1,4 @@
-/* Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -262,7 +262,7 @@ button[data-equals]:hover {
     }
 }
 
-/* Show/hide memory and scientific buttons */
+
 .show-memory .memory-btn {
     display: block;
 }
@@ -282,7 +282,7 @@ button[data-equals]:hover {
     animation: buttonClick 0.2s ease;
 }
 
-/* Glow effect for display */
+
 .display::before {
     content: '';
     position: absolute;
