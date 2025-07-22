@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="settings-panel">
+            <h3>Advanced Settings</h3>
+            <div class="setting-group">
+                <label for="theme-select">Theme:</label>
+                <select id="theme-select">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            <div class="setting-group">
+                <label for="decimal-places">Decimal Places:</label>
+                <input type="number" id="decimal-places" min="0" max="10" value="2">
+            </div>
+            <div class="setting-group">
+                <label>
+                    <input type="checkbox" id="sound-toggle" checked>
+                    Enable Sounds
+                </label>
+            </div>
+            <div class="setting-group">
+                <label>
+                    <input type="checkbox" id="memory-toggle" checked>
+                    Show Memory Functions
+                </label>
+            </div>
+            <div class="setting-group">
+                <label>
+                    <input type="checkbox" id="scientific-toggle">
+                    Show Scientific Functions
+                </label>
+            </div>
+        </div>
+
+        <div class="calculator">
+            <div class="display">
+                <div class="memory-indicator" id="memory-indicator"></div>
+                <div class="previous-operand" id="previous-operand"></div>
+                <div class="current-operand" id="current-operand">0</div>
+            </div>
+
+            <div class="buttons">
+                <button class="span-2" id="clear">AC</button>
+                <button class="span-2" id="delete">DEL</button>
+                
+                <!-- Memory buttons (hidden by default) -->
+                <button class="memory-btn" id="mc">MC</button>
+                <button class="memory-btn" id="mr">MR</button>
+                <button class="memory-btn" id="m-plus">M+</button>
+                <button class="memory-btn" id="m-minus">M-</button>
+                
+                <!-- Scientific buttons (hidden by default) -->
+                <button class="scientific-btn" id="sin">sin</button>
+                <button class="scientific-btn" id="cos">cos</button>
+                <button class="scientific-btn" id="tan">tan</button>
+                <button class="scientific-btn" id="log">log</button>
+                <button class="scientific-btn" id="ln">ln</button>
+                <button class="scientific-btn" id="sqrt">√</button>
+                <button class="scientific-btn" id="pow">x^y</button>
+                <button class="scientific-btn" id="fact">x!</button>
+                <button class="scientific-btn" id="pi">π</button>
+                <button class="scientific-btn" id="e">e</button>
+                
+                <!-- Standard calculator buttons -->
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operation>÷</button>
+                
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operation>×</button>
+                
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operation>-</button>
+                
+                <button data-number>0</button>
+                <button data-number>.</button>
+                <button data-equals>=</button>
+                <button data-operation>+</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="click-sound" src="https://www.soundjay.com/buttons/sounds/button-09.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
