@@ -17,7 +17,8 @@
 
 ## 📷 Screenshot
 
-<img width="1365" height="767" alt="Screenshot 2025-07-22 195120" src="https://github.com/user-attachments/assets/94c8793d-2b99-4b12-a949-678edd7ab068" />
+<img width="1359" height="715" alt="Screenshot 2025-07-22 195704" src="https://github.com/user-attachments/assets/67c66cc7-762f-4772-b445-20e06d95bf76" />
+
 
 
 ## 🛠️ How to Run
