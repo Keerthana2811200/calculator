@@ -13,8 +13,7 @@
 ## 💻 Technologies Used
 
 - HTML, CSS, JavaScript (for Web version)
-- OR Python (for CLI/GUI version)
-- Optional: React, Bootstrap, Tkinter, etc.
+
 
 ## 📷 Screenshot
 
