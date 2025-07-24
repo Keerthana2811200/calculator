@@ -1,8 +1,8 @@
-    simple Calculator:
+   A simple Calculator:
 
    A simple and user-friendly calculator application that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-## 🚀 Features
+## 🚀 Features:
 
 - Addition, Subtraction, Multiplication, Division
 - Clear button to reset input
